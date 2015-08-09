@@ -17,7 +17,7 @@ class VBOSphere
   //Constructeur
   VBOSphere(PVector loc_, float rad_)
   {
-    location = loc_.get();
+    location = loc_.copy();
     radiusX = radiusY = radiusZ = rad_;
     //dynamic data 
     nvertSpeed = random(0.1);

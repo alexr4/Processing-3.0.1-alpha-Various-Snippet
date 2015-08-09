@@ -17,7 +17,7 @@ class VBOCube
   //Constructeur
   VBOCube(PVector loc_, float res_)
   {
-    location = loc_.get();
+    location = loc_.copy();
     res = res_;
     //dynamic data 
     nvertSpeed = random(0.1);
